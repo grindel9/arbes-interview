@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonecompany.billing.TelephoneBillCalculatorImplTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-07-18T15:49:19" hostname="DESKTOP-3H1C884" time="0.06">
+  <properties/>
+  <testcase name="testEmptyInput()" classname="com.phonecompany.billing.TelephoneBillCalculatorImplTest" time="0.026"/>
+  <testcase name="testTwoCallsFromSameNumberIsEqualToZero()" classname="com.phonecompany.billing.TelephoneBillCalculatorImplTest" time="0.018"/>
+  <testcase name="testCallLongerThanFiveMinutesOtherTimeCall()" classname="com.phonecompany.billing.TelephoneBillCalculatorImplTest" time="0.002"/>
+  <testcase name="testLessThanFiveMinutesMainTimeCall()" classname="com.phonecompany.billing.TelephoneBillCalculatorImplTest" time="0.002"/>
+  <testcase name="testOneCallIsEqualToZero()" classname="com.phonecompany.billing.TelephoneBillCalculatorImplTest" time="0.001"/>
+  <testcase name="testLessThanFiveMinutesOtherTimeCall()" classname="com.phonecompany.billing.TelephoneBillCalculatorImplTest" time="0.002"/>
+  <testcase name="testNullInput()" classname="com.phonecompany.billing.TelephoneBillCalculatorImplTest" time="0.001"/>
+  <system-out><![CDATA[call duration: 2 cost: 2.0
+call duration: 2 cost: 2.0
+call duration: 15 cost: 4.5
+call duration: 10 cost: 6.0
+call duration: 2 cost: 2.0
+call duration: 10 cost: 6.0
+call duration: 2 cost: 2.0
+call duration: 2 cost: 1.0
+call duration: 10 cost: 6.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
